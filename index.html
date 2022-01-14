@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="main.css" type="text/css">
+  <title>Le Test Page Brah</title>
+</head>
+
+<body>
+
+<header>
+  <h1>Welcome to my Test Page!</h1>
+</header>
+
+<nav class="square_blue">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+
+<nav class="round_button_green">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+
+<nav class="square_spinner_blue">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+
+<nav class="round_spinner_blue">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+
+<nav class="square_glow_blue">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+
+<nav class="round_glow_blue">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+
+<div class="btnWrapper">
+  <nav>
+    <div class="btn">
+      <a href="#">Home</a>
+      <div class="dot"></div>
+    </div>
+    <div class="btn">
+        <a href="#">Home</a>
+      <div class="dot"></div>
+    </div>
+  </nav>
+</div>
+
+
+
+<footer>
+    <div id="clock">clock error</div>
+    <small>Copyright &copy; <a href="#">Wormhole.click </a><div id="copyright">copyright error</div></small>
+</footer>
+
+</body>
+
+<script src="{% static 'js/clock.js' %}"></script>
+
+</html>
